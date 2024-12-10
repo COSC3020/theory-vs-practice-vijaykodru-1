@@ -37,7 +37,7 @@
 
   ii. If the elements are large, like long strings or complex objects, comparing them might take longer, increasing the search time beyond what asymptotic analysis predicts. For exmaple, if we have a input list of 1000 integers when compared input list of 10000 strings this would take longer than the calculated time because comparing the strings take linear time vs comparing the integers is constant.
 
-  iii. If the binary search tree is not balanced or the algorithm is implemented incorrectly (e.g., linear search instead of binary search), the time complexity might not be logarithmic, resulting in much slower performance. This by it self would not effect the runtime significantly, however if the machine that the code is being run on has other programs running simultaneously this would make the difference in the time complexity.
+  iii. If the machine that the code is being run on has other programs running simultaneously this would make the difference in the time complexity.
 
 Add your answers to this markdown file.
 
